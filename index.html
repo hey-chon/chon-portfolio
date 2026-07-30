@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>chon.dev | Jimson Ilog Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-text">chon<span class="logo-dot">.dev</span></span>
+        <span class="logo-pulse"></span>
+      </a>
+      <div class="nav-divider"></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link active">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#experience" class="mobile-link">Experience</a>
+      <a href="#certificates" class="mobile-link">Certificates</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <a href="#contact" class="mobile-cta">Hire Me</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <i class="fas fa-map-marker-alt"></i>
+          Naic, Cavite — Philippines
+        </div>
+        <p class="hero-greeting">Hello, world. I'm</p>
+        <h1 class="hero-name">
+          <span class="name-white">Jimson</span>
+          <span class="name-red">Ilog</span>
+        </h1>
+        <div class="hero-tagline">
+          <span class="tagline-label">I am a</span>
+          <span class="tagline-type" id="typewriter"></span>
+        </div>
+        <p class="hero-desc">Passionate student web developer who's always willing to adapt and learn new things. Currently holding 13+ web projects as a Grade 11 student at CSSNCII — always learning, always building.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-secondary">Contact Me</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/hey-chon" target="_blank" rel="noreferrer" class="social-link">
+            <i class="fab fa-github"></i>
+            <span class="social-label">github/hey-chon</span>
+          </a>
+          <span class="social-divider"></span>
+          <a href="mailto:ilogchon500@gmail.com" class="social-link">
+            <i class="fas fa-envelope"></i>
+            <span class="social-label">ilogchon500@gmail.com</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-ring photo-ring-outer"></div>
+        <div class="photo-ring photo-ring-inner"></div>
+        <div class="photo-glow"></div>
+        <div class="photo-frame">
+          <img src="images/prof.jpg" alt="Jimson Ilog" class="photo-img" />
+        </div>
+        <div class="photo-badge">
+          <span class="badge-dot"></span>
+          Open to learn new things...
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <span>Scroll</span>
+      <i class="fas fa-arrow-down"></i>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">01. <span class="title-accent">About Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo-wrapper">
+          <div class="about-photo-card">
+            <div class="about-glow"></div>
+            <img src="images/profile.jpg" alt="Jimson Ilog" class="about-img" />
+            <div class="about-overlay"></div>
+            <div class="about-caption">
+              <p class="about-caption-name">Jimson Ilog</p>
+              <p class="about-caption-role">ICT Student · Naic, Cavite</p>
+            </div>
+            <div class="about-corner top-right"></div>
+            <div class="about-corner bottom-left"></div>
+            <div class="about-floating-badge">
+              <span class="badge-dot"></span>
+              Hello World
+            </div>
+          </div>
+        </div>                                        
+        <div class="about-text">
+          <p class="about-desc">Motivated and dedicated Senior High School student specializing in Information & Communication Technology with a passion for web development. I have experience in front-end development and currently expanding my knowledge in back-end development. I am eager to apply my skills, learn more, and contribute positively to a professional environment one day.</p>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <i class="fas fa-lightbulb highlight-icon white"></i>
+              <div class="highlight-info">
+                <p class="highlight-title">Fast Learner</p>
+                <p class="highlight-desc">Always willing to adapt and absorb new skills and concepts</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <i class="fas fa-rocket highlight-icon red"></i>
+              <div class="highlight-info">
+                <p class="highlight-title">Detail-Oriented</p>
+                <p class="highlight-desc">Committed to clean and precise work</p>
+              </div> 
+            </div>
+            <div class="highlight-card">
+              <i class="fas fa-code highlight-icon white"></i>
+              <div class="highlight-info">
+                <p class="highlight-title">Responsible</p>
+                <p class="highlight-desc">Collaborative and dependable in every project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">02. <span class="title-accent">Skills & Strengths</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-col">
+          <h3 class="skills-heading">Technical Skills</h3>
+          <div class="skill-list" id="skillList"></div>
+        </div>
+        <div class="skills-col">
+          <h3 class="skills-heading">Key Strengths</h3>
+          <div class="strengths-grid" id="strengthsGrid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">03. <span class="title-accent">Projects</span></h2>
+        <p class="section-subtitle">Selected work built with HTML, CSS, and JavaScript.</p>
+        <p class="showcase-note">This is just a sort of my web projects</p>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <section class="timeline" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">04. <span class="title-accent">Journey</span></h2>
+      </div>
+      <div class="timeline-wrapper">
+        <div class="timeline-line"></div>
+        <div class="timeline-item left">
+          <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2026 – Present</span>
+            <h3 class="timeline-title">Senior High School – Information & Communication Technology</h3>
+            <p class="timeline-org">Cavite Community Academy Inc. (Naic, Cavite)</p>
+            <ul class="timeline-list">
+              <li>Consistent With Honors (Grade 7–10)</li>
+              <li>General Averages: 94.25 | 93.00 | 94.30 | 93.25</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-dot secondary"><i class="fas fa-users"></i></div>
+          <div class="timeline-card">
+            <h3 class="timeline-title">TLE Club Member</h3>
+            <ul class="timeline-list">
+              <li>Actively participated in school activities and projects</li>
+              <li>Developed teamwork, responsibility, and leadership skills</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-dot gold"><i class="fas fa-trophy"></i></div>
+          <div class="timeline-card gold-card">
+            <h3 class="timeline-title"><i class="fas fa-star"></i> Academic Achievements</h3>
+            <ul class="timeline-list">
+              <li>Consistent With Honors from Grade 7 to Grade 10</li>
+              <li>Maintained high academic performance with averages ranging from 93.00 to 94.30</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">By the Numbers</span>
+        <h2 class="section-title"> Snapshot of My Journey</h2>
+      </div>
+      <div class="stats-grid" id="statsGrid"></div>
+    </div>
+  </section>
+
+  <section class="certificates" id="certificates">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Verified Credentials</span>
+        <h2 class="section-title">05. <span class="title-accent">Certificates</span></h2>
+        <p class="section-subtitle">Online courses and certifications earned as a student web developer.</p>
+      </div>
+      <div class="certificates-grid" id="certificatesGrid"></div>
+    </div>
+  </section>
+
+  <section class="credits" id="credits">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">With Gratitude</span>
+        <h2 class="section-title">Built With Help From</h2>
+        <p class="section-subtitle">Shoutout to the amazing tools, platforms, and creators that helped me learn something new.</p>
+      </div>
+      <div class="credits-grid" id="creditsGrid"></div>
+      <p class="credits-quote">"Among the countless users, be the developer"</p>
+    </div>
+  </section>
+
+  <section class="cta" id="cta">
+    <div class="cta-bg"></div>
+    <div class="container">
+      <div class="cta-content">
+        <span class="section-tag">Open to Work</span>
+        <h2 class="cta-title">Let's Build Something <span class="cta-accent">Together</span></h2>
+        <p class="cta-desc">I'm a passionate student web developer from Naic, Cavite who is always ready to learn and collaborate. If you have a project or opportunity in mind, let's talk.</p>
+        <div class="cta-buttons">
+          <a href="mailto:ilogchon500@gmail.com" class="btn-primary">
+            <i class="fas fa-envelope"></i> Email Me <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="https://github.com/hey-chon" target="_blank" rel="noreferrer" class="btn-secondary">
+            <i class="fab fa-github"></i> View GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Reach Out</span>
+        <h2 class="section-title">06. <span class="title-accent">Contact</span></h2>
+        <p class="section-subtitle">Whether you have a question,project idea, or just want to say hi — my inbox is always open.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Email</span>
+              <a href="mailto:ilogchon500@gmail.com" class="contact-value">ilogchon500@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card dark">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/hey-chon" target="_blank" rel="noreferrer" class="contact-value">hey-chon</a>
+            </div>
+          </div>
+          <div class="contact-card red">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Naic, Cavite, Philippines</span>
+            </div>
+          </div>
+          <div class="contact-note">
+            <p>Currently a <span class="accent">Senior High School student</span> at Cavite Community Academy Inc. — open to collaboration, internships, and learning opportunities.</p>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <h3 class="form-title">Send a Message</h3>
+          <form class="contact-form" id="contactForm" action="https://formspree.io/f/xkodepdy" method="POST" accept-charset="UTF-8">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="e.g. Jimson Ilog" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="e.g. ilogchon@gmail.com" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Write your message here..." class="form-textarea"></textarea>
+            </div>
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="form-honeypot" aria-hidden="true" />
+            <button type="submit" class="btn-submit" id="btnSubmit">
+              <i class="fas fa-paper-plane"></i> <span id="btnText">Send Message</span>
+            </button>
+          </form>
+          <div class="form-toast" id="formToast" role="status" aria-live="polite">
+            <i class="fas fa-check-circle" aria-hidden="true"></i>
+            <span>Message sent! Wait for Jimson's Response.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo">chon<span class="footer-dot">.dev</span></a>
+          <p class="footer-role">Jimson Ilog — ICT Student</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/hey-chon" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+          <a href="mailto:ilogchon500@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>chon.dev &copy; Jimson Ilog — Naic, Cavite, Philippines</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

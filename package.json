@@ -1,0 +1,13 @@
+{
+  "name": "@workspace/chon-dev-static",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'No build needed for static site'",
+    "serve": "node server.js",
+    "typecheck": "echo 'No TypeScript in static site'"
+  },
+  "devDependencies": {}
+}
