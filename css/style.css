@@ -1174,8 +1174,8 @@ img {
   }
 }
 
-.timeline-dot.secondary { border-color: var(--secondary); color: var(--secondary); }
-.timeline-dot.gold { border-color: #facc15; color: #facc15; }
+.timeline-dot.secondary { border-color: var(--primary); color: var(--primary); }
+.timeline-dot.gold { border-color: #dc2626; color: #dc2626; }
 
 .timeline-card {
   background: var(--bg-card);
@@ -1193,8 +1193,7 @@ img {
 }
 
 .timeline-card.gold-card {
-  border-color: rgba(250, 204, 21, 0.3);
-  box-shadow: 0 0 15px rgba(250, 204, 21, 0.1);
+  border-color: var(--border);
 }
 
 .timeline-date {
