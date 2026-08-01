@@ -6,7 +6,7 @@
   if (reducedMotion) document.documentElement.classList.add('motion-reduced');
 
   // typewriter thing
-  const taglines = ['Student Web Developer', 'Front-End Dev', 'Creative Coder', 'ICT Student', 'Consistent With Honors', 'Willing to Adapt & Learn'];
+  const taglines = ['Student Web Developer', 'Front-End Dev', 'Creative Coder', 'ICT Student', 'Consistent With Honors', 'NCII Student', 'Willing to Adapt & Learn'];
   let taglineIndex = 0;
   let displayed = '';
   let isDeleting = false;
@@ -124,9 +124,9 @@
     { name: 'HTML', icon: 'fa-brands fa-html5', color: '#f97316' },
     { name: 'CSS', icon: 'fa-brands fa-css3-alt', color: '#60a5fa' },
     { name: 'JavaScript', icon: 'fa-brands fa-js', color: '#facc15' },
-    { name: 'Front-End Development', icon: 'fa-brands fa-react', color: '#22d3ee' },
-    { name: 'Responsive Web Design', icon: 'fa-solid fa-wind', color: '#2dd4bf' },
-    { name: 'Basic Back-End', icon: 'fa-brands fa-node', color: '#4ade80' },
+    { name: 'React', icon: 'fa-brands fa-react', color: '#22d3ee' },
+    { name: 'Tailwind', icon: 'fa-solid fa-wind', color: '#2dd4bf' },
+    { name: 'Nodejs', icon: 'fa-brands fa-node', color: '#4ade80' },
     { name: 'Microsoft Word', icon: 'fa-solid fa-file-word', color: '#3b82f6' },
     { name: 'Microsoft PowerPoint', icon: 'fa-solid fa-file-powerpoint', color: '#ea580c' },
   ];
@@ -161,7 +161,7 @@
       tags: ['HTML', 'CSS', 'JavaScript'],
       icons: ['fa-brands fa-html5', 'fa-brands fa-css3-alt', 'fa-brands fa-js'],
       iconColors: ['#f97316', '#60a5fa', '#facc15'],
-      url: 'https://chon-dev-portfolio.netlify.app/',
+      url: 'https://chon-portfolio.netlify.app/',
       meta: 'Personal project',
       featured: true,
     },
@@ -227,10 +227,10 @@
 
   // numbers
   const statsData = [
-    { icon: 'fa-solid fa-trophy', value: '4', label: 'Years with Honors', sub: 'Grade 7 to Grade 10', color: 'yellow', iconColor: '#facc15' },
+    { icon: 'fa-solid fa-trophy', value: '4', label: 'Years with Honors', sub: 'Grade 7 to Grade 10', color: 'red', iconColor: '#dc2626' },
     { icon: 'fa-solid fa-star', value: '94.30', label: 'Top Average', sub: 'Highest general average', color: 'red', iconColor: '#dc2626' },
-    { icon: 'fa-solid fa-code', value: '13+', label: 'Projects Built', sub: 'Showcase and client work', color: 'blue', iconColor: '#60a5fa' },
-    { icon: 'fa-solid fa-graduation-cap', value: 'SHS', label: 'Tech-Pro CSSNCII', sub: 'Cavite Community Academy', color: 'green', iconColor: '#4ade80' },
+    { icon: 'fa-solid fa-code', value: '13+', label: 'Projects Built', sub: 'Showcase and client work', color: 'red', iconColor: '#dc2626' },
+    { icon: 'fa-solid fa-graduation-cap', value: 'SHS', label: 'Tech-Pro CSSNCII', sub: 'Cavite Community Academy', color: 'red', iconColor: '#dc2626' },
   ];
 
   const statsGrid = document.getElementById('statsGrid');
@@ -438,3 +438,4 @@
 
 })();
 
+console.log("Hello, hack me if you can ;))")
